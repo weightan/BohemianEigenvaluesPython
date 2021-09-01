@@ -9,8 +9,8 @@ def sorted_alphanumeric(data):
     return sorted(data, key=alphanum_key)
 
 
-image_folder = 'imgf2'
-video_name = 'videoFish2.avi'
+image_folder = 'imv'
+video_name = 'video_eigv_rotating_bohem33classic.avi'
 
 images = [img for img in sorted_alphanumeric(os.listdir(image_folder)) if img.endswith(".png")]
 frame = cv2.imread(os.path.join(image_folder, images[0]))
